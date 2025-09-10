@@ -1,66 +1,254 @@
-body{
-    background-color: #f0f0f0;
+body {
+    background-color: #ffffff;
 }
+
+form {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+
+}
+
+.heading1 {
+    background-color: #000000;
+    color: #fa56cc;
+    border-radius: 25px;
+    padding: 10px 15px;
+    display: inline;
+
+}
+
+.heading2 {
+    background-color: #000000;
+    color: #fa56cc;
+    border-radius: 25px;
+    padding: 10px 15px;
+    display: inline;
+}
+
+.heading3 {
+    background-color: #000000;
+    color: #fa56cc;
+    border-radius: 25px;
+    padding: 10px 15px;
+    display: inline;
+}
+
+.heading4 {
+    background-color: #000000;
+    color: #fa56cc;
+    border-radius: 25px;
+    padding: 10px 15px;
+    display: inline;
+}
+
+
 .box {
     border-radius: 5px;
     height: 25px;
     width: 190px;
 }
 
-input::placeholder{
+input::placeholder {
     text-align: center;
     font-size: medium;
-     
-     
+
+
 }
 
-form{
+form {
     margin: 50px;
 }
 
- 
-.foot{
-    margin-top: 150px;
+
+.foot {
+  
+    background-color: #fff;
+
 }
 
-.main_logo{
- 
+.main_logo {
+
     margin-left: 330px;
     margin-bottom: 20px;
     filter: drop-shadow(1px 1px 5px black);
- 
+
 }
 
-em{
+em {
     margin-left: 300px;
     font-weight: bold;
     font-size: 25px;
-    
+
 
 }
 
-a{
+a {
     color: black;
     font-size: 20px;
     border-radius: 20px;
-    
 
 }
 
-ul{
+ 
+.navbar a{
+    color: rgb(255, 244, 244);
+    font-size: 20px;
+    background-color: #000000;
+    border-radius: 25px;
+    padding: 12px 18px;
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+ 
+
+.navbar a:hover{
+
+    background-color: #000000;
+    color: hotpink;
+     
+}
+
+
+ul {
 
     list-style-type: none;
 }
- 
-.blanks{
+
+.blanks {
 
     margin-top: 100px;
 }
 
- #followus li{
+#followus li {
 
     float: left;
     padding: 25px;
-     
+
 
 }
+
+button {
+    padding: 12px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    margin-left: 20px;
+    
+}
+
+button:hover {
+    background-color: hotpink;
+    color: #000000;
+    font: bolder;
+}
+
+.edu li {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ 
+
+ .logo li{
+    background-color: #000000;
+    margin: 50px;
+    border-radius: 30px;
+ }
+
+iframe{
+    
+    margin: 30px;
+    border: 1px solid #ebebeb;
+     
+
+ }
+
+.footer{
+
+    padding-bottom: 15px;
+    padding-top: 50px;
+    border-radius:15px ;
+     
+     
+}
+ 
+.footer p{
+    text-align: center;
+}
+
+#followus li {
+    
+    align-content: end;
+    padding-inline: 85px;
+    margin-left: 50px;
+}
+
+.final{
+    padding: 20px;
+    background: #242e47;
+    margin-top: 150px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .declare{
+    background-color: #d9d9d9;
+    color: #000000;
+    font-weight:400;
+    padding: 30px;
+    border-radius: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+
+  .declare input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+     
+    
+  }
+
+input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    accent-color: green;
+    
+  }
+
+  input[type="file"]{
+    color: #fff;
+  }
+
+  input[type="file"]::file-selector-button {
+
+    background: #000000;
+    color: rgb(252, 252, 246);
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 30px;
+  
+}
+
+  input[type="file"]::file-selector-button:hover {
+
+
+    background-color: hotpink;
+    color: #000000;
+    font-weight: bold;
+
+  }
+
+ 
+
+
+ 
